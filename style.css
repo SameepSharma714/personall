@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.first{
+    display: flex;
+    gap: 190px;
+    justify-content: center;
+   
+
+}
+.first h1{
+    margin-top: 8px;
+    font-family: sans-serif;
+    color: white;
+    animation-name: samip;
+    animation-duration: 4s;
+}
+ul{
+    display: flex;
+    gap: 50px;
+  
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+
+}
+a:hover{
+    text-decoration: underline red;
+    transition: 0.5s;
+}
+.second{
+    margin-top: 10%;
+}
+.second h4{
+font-family: sans-serif;
+color: yellow;
+font-size: 20px;
+}
+.second h2{
+    font-family: sans-serif;
+    color: white;
+}
+.second h3{
+    font-family: sans-serif;
+    color: yellow;
+    font-size: 25px;
+    margin-top:-16px;
+}
+.second pre{
+    font-family: sans-serif;
+    color: white;
+}
+.d{
+    display: flex;
+    gap: 40px;
+}
+.b button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+ border: transparent;
+animation-name: identifier;
+animation-duration: 4s;
+}
+.b button:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+.c button{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    border: transparent;
+    animation-name: samip;
+    animation-duration: 4s;
+}
+.c button:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+.fourth{
+    display: flex;
+   
+    gap: 90px;
+    overflow: hidden;
+}
+img{
+    opacity: 0.7;
+    animation-name: identifier;
+    animation-duration: 3s;
+
+}
+@keyframes identifier {
+    from{
+transform: translateY(1250px);
+    }
+    to{
+
+    }
+    
+}
+@keyframes samip {
+    
+    from{
+transform: translateX(2200px);
+    }
+    to{
+
+    }
+}
